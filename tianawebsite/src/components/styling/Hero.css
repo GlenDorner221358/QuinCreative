@@ -1,0 +1,52 @@
+.hero {
+    display: flex;
+    margin-top: 250px;
+    justify-content: space-between;
+    flex-direction: row;
+    min-width: 60%;
+    margin-left: 200px;
+}
+
+.hero-heading{
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    max-width: 58%;
+    text-align: left;
+    margin-right: 20px;
+    padding: 80px 10px;
+}
+
+.hero-description {
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero p {
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.enquire-button {
+    display: inline-block;
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 30px; 
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.enquire-button:hover {
+    background-color: #003366;
+}
+
+.hero-image {
+    max-width: 55%;
+    height: auto;
+    margin-bottom: -20px;
+}
+

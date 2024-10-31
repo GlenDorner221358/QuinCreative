@@ -1,0 +1,27 @@
+.quote {
+    display: flex;
+    align-items: center;
+    padding: 50px 20px;
+    gap: 30px;
+}
+
+.quote-image img {
+    width: 500px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.quote-content {
+    max-width: 500px;
+}
+
+.quote-content h3 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ff6347; /* Placeholder color for quote text */
+}
+
+.quote-content p {
+    font-size: 20px;
+    line-height: 1.6;
+}

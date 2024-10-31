@@ -1,0 +1,41 @@
+/* src/components/styling/About.css */
+.about {
+    display: flex;
+   
+    justify-content: center;
+    padding: 80px;
+    gap: 30px;
+    margin-top: 0px;
+}
+
+.who{
+    position: absolute;
+    min-width: 100%;
+}
+
+.our-story{
+    background-color: red;
+}
+
+.about-content {
+    max-width: 500px;
+    margin-top: 350px;
+    margin-right: 600px;
+}
+
+.about-content h2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #add8e6; /* Placeholder color */
+}
+
+.about-content p {
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+.about-image img {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+}
