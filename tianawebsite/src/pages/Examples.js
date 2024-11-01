@@ -1,8 +1,8 @@
 import React from 'react';
-import '../components/styling/Photography.css';
-import Content from '../assets/PhotographyPage.png';
+import '../components/styling/Examples.css';
+import Content from '../assets/ExamplesPage.png';
 
-const Photography = () => {
+const Examples = () => {
     return (
         <div className='lazyPage'>
             <img src={Content} alt="missing whole page" className='pageContent' />
@@ -11,4 +11,4 @@ const Photography = () => {
     );
 };
 
-export default Photography;
+export default Examples;
