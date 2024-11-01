@@ -8,21 +8,23 @@
 
 .footer-icons {
     height: 70px;
+    margin-top: 40px;
+    position: absolute;
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
     gap: 100%;
-    font-size: 14px;
-    float: left;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 .footer-icons, .social-media {
     display: flex;
     justify-content: center;
     gap: 100%;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .footer-icons span, .social-media span {

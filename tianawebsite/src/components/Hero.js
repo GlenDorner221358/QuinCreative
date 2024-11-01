@@ -14,7 +14,7 @@ const Hero = () => {
                     focuses on corporate designing AND a <br />
                     commercial photographer!
                 </p>
-                <a href="/enquire" className="enquire-button">ENQUIRE</a>
+                <a href="/contact" className="enquire-button">ENQUIRE</a>
             </div>
 
             <img src={MannequinLookinDude} alt="Hero Right" className="hero-image" /> 

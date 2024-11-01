@@ -1,0 +1,91 @@
+.contact-page {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-header {
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.contact-header h1 {
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #111;
+}
+
+.details-highlight {
+    color: #e04a00; /* Orange color for "DETAILS" */
+}
+
+.laptop-image {
+    position: absolute;
+    top: -20px;
+    left: -100px;
+    width: 300px;
+    height: auto;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 600px;
+    position: relative;
+}
+
+.form-header h2 {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact-form label {
+    font-size: 1em;
+    color: #e04a00; /* Text color for form labels */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.contact-form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+.submit-button {
+    background-color: #001f3f; /* Dark blue for button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.circular-text {
+    position: absolute;
+    bottom: -50px;
+    right: -30px;
+    width: 120px;
+    height: auto;
+    transform: rotate(-20deg); /* Adjust rotation if needed */
+}
