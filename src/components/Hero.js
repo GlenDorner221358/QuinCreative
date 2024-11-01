@@ -1,7 +1,7 @@
 import React from 'react';
 import './styling/Hero.css';
-import Hello from '../assets/Hello.svg';
-import MannequinLookinDude from '../assets/MannequinLookinDude.svg';
+import Hello from './../assets/Hello.svg';
+import MannequinLookinDude from './../assets/MannequinLookinDude.svg';
 
 const Hero = () => {
     return (

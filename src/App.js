@@ -13,7 +13,7 @@ function App() {
         <div className="App">
             <Navbar />
             <Routes>
-                <Route path="/quincreative" element={<Home />} />
+                <Route path="/" element={<Home />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/photography" element={<Photography />} />
                 <Route path="/examples" element={<Examples />} />

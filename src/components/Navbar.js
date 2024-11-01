@@ -11,7 +11,7 @@ const Navbar = () => {
                     <img src={Logo} alt="Logo" /> 
                 </div>
                 <ul className="nav-links">
-                    <Link to="/quincreative"> <li>Home</li> </Link>
+                    <Link to="/"> <li>Home</li> </Link>
                     <Link to="/design"> <li>Design</li> </Link>
                     <Link to="/photography"> <li>Photography</li> </Link>
                     <Link to="/examples"> <li>Examples</li> </Link>
