@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import Contact from './components/Contact';
 import Photography from './pages/Photography';
 import Examples from './pages/Examples';
+import Design from './pages/Design';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/photography" element={<Photography />} />
                 <Route path="/examples" element={<Examples />} />
+                <Route path="/design" element={<Design />} />
             </Routes>
             <Footer />
         </div>

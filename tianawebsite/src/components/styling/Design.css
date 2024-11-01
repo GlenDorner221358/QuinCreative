@@ -1,0 +1,113 @@
+.pageContent {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2 {
+    margin-top: 20px;
+}
+
+.section3 {
+    margin-top: 70px;
+}
+
+/* BUTTON 1 */
+.chat-button1 {
+    display: inline-block;
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-left: 400px;
+}
+
+.chat-button1:hover {
+    background-color: #003366;
+}
+
+
+/* BUTTON 2 */
+.chat-button2 {
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-right: 415px;
+    float: right;
+}
+
+.chat-button2:hover {
+    background-color: #003366;
+}
+
+
+/* BUTTON 3 */
+.chat-button3 {
+    display: inline-block;
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 500px;
+}
+
+.chat-button3:hover {
+    background-color: #003366;
+}
+
+
+/* BUTTON 4 */
+.chat-button4 {
+    float: right;
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    margin-right: 513px;
+}
+
+.chat-button4:hover {
+    background-color: #003366;
+}
+
+.oneButton {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* BUTTON 5 */
+.chat-button5 {
+    display: inline-block;
+    background-color: #001f3f; 
+    color: #fff;
+    padding: 20px 50px;
+    border-radius: 30px; 
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    margin-bottom: 100px;
+}
+
+.chat-button5:hover {
+    background-color: #003366;
+}
